@@ -32,3 +32,23 @@ switch(dayNumber) {
     default: console.log("Invalid day number");
   break;
 }
+
+let dayNumber2 = 0; // change this value to test different days
+
+if (dayNumber === 0) {
+  console.log("Sunday");
+} else if (dayNumber2 === 1) {
+  console.log("Monday");
+} else if (dayNumber2 === 2) {
+  console.log("Tuesday");
+} else if (dayNumber2 === 3) {
+  console.log("Wednesday");
+} else if (dayNumber2 === 4) {
+  console.log("Thursday");
+} else if (dayNumber2 === 5) {
+  console.log("Friday");
+} else if (dayNumber2 === 6) {
+  console.log("Saturday");
+} else {
+  console.log("Invalid day number");
+}
