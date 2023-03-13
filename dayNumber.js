@@ -35,7 +35,7 @@ switch(dayNumber) {
 
 let dayNumber2 = 0; // change this value to test different days
 
-if (dayNumber === 0) {
+if (dayNumber2 === 0) {
   console.log("Sunday");
 } else if (dayNumber2 === 1) {
   console.log("Monday");
